@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gallery">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.beardedhen.androidbootstrap.BootstrapCircleThumbnail
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:src="@drawable/insta"
+            app:bootstrapBrand="danger"
+            app:hasBorder="true"
+            />
+        <com.beardedhen.androidbootstrap.BootstrapThumbnail
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:src="@drawable/facebook"
+            app:bootstrapBrand="info"
+            app:hasBorder="true"
+            />
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
